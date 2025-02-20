@@ -1,16 +1,39 @@
 # Product_Managment
-Ce projet est un exercice officiel dans le cadre de la [formation JAVA ORACLE SE 21](https://education.oracle.com/fr/ouexam-pexam_1z0-830/pexam_1Z0-830). L'objectif principal est de développer une application Java qui permet de gérer et de classifier les produits d'un restaurant en fonction des avis des clients. Les produits seront classés sur une échelle de 1 à 5 étoiles, en se basant sur les notes et les commentaires des clients.
-## Objectifs du Projet
-1. **Gestion des Produits** : Créer un système qui permet d'ajouter, de modifier, de supprimer et de consulter les produits du restaurant.
-2. **Gestion des Avis** : Permettre aux clients de laisser des avis (notes et commentaires) sur les produits.
-3. **Classification des Produits** : Classer les produits en fonction de la moyenne des notes données par les clients.
-4. **Utilisation des Concepts Avancés de Java** : Mettre en pratique les concepts de programmation orientée objet (POO) tels que l'héritage, les classes abstraites, les interfaces, les expressions lambda, les streams, et les annotations.
-5. **Sécurité** : Intégrer des techniques de sécurité Java pour protéger les données sensibles.
+This project is an official exercise as part of the [JAVA ORACLE SE 21](https://education.oracle.com/fr/ouexam-pexam_1z0-830/pexam_1Z0-830). The main objective is to develop a Java application that manages and classifies restaurant products based on customer reviews. Products will be rated on a scale of 1 to 5 stars, based on customer ratings and comments.
+## Project Objectives
+1. **Product Management** : Create a system that allows adding, modifying, deleting, and viewing restaurant products.
+2. **Review Management** : Enable customers to leave reviews (ratings and comments) on products. 
+3. **Product Classification** : Classify products based on the average of customer ratings.
+4. **Advanced Java Concepts** : Implement object-oriented programming (OOP) concepts such as inheritance, abstract classes, interfaces, lambda expressions, streams, and annotations.
+5. **Security** : Integrate Java security techniques to protect sensitive data.
 
-## Remerciements
+## Acknowledgments
 - [Documentation Java](https://devdocs.io/openjdk~21/)
 
-## Dépendances
+## Project Structure
+
+![badmath](shema)
+
+### Run
+   
+`Sous Linux`
+   ```bash
+   mkdir -p ProductManagment/labs/pm/data
+   mkdir -p ProductManagment/labs/pm/app
+   mkdir -p ProductManagment/labs/data
+   mkdir -p ProductManagment/labs/temp
+   mkdir -p ProductManagment/labs/reports
+   
+   ```
+`Sous Windows`
+   ```bash
+   mkdir ProductManagment/labs/pm/data
+   mkdir ProductManagment/labs/pm/app
+   mkdir ProductManagment/labs/data
+   mkdir ProductManagment/labs/temp
+   mkdir ProductManagment/labs/reports
+   ```
+## Dependencies
 `java.nio`
 `java.time`
 `java.util`
