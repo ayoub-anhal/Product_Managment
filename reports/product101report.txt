@@ -1,0 +1,6 @@
+Tea, Price: £1.99, Rating: ☆☆☆☆☆, Best Before: 08/02/2025, ●
+Review: ★★★★★	This is the best one I ever had
+Review: ★★★★☆	I liked it
+Review: ★★★★☆	Good choice
+Review: ★★★☆☆	Could have been better
+Review: ★★☆☆☆	Very small - expected more
